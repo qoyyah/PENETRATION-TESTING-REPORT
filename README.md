@@ -24,3 +24,11 @@ The instructor, content authors and Networkwalks shall not be held responsible f
 Unauthorized access to computer systems is a criminal offence in many jurisdictions, regardless of whether damage occurs. Violations may result in criminal prosecution, substantial financial penalties, loss of employment and a permanent criminal record.
 
 Always prioritize ethical conduct, obtain proper authorization and comply with applicable cybersecurity laws and regulations before conducting any security assessment.
+
+# 2. Introduction
+
+This report documents two practical cybersecurity exercises completed during Week 2 of my ongoing internship programme at Networkwalks. The first exercise (W2-PM1) focuses on performing domain footprinting on networkwalks.com using various Kali Linux tools, while the second exercise (W2-PM5) involves scanning my own local network using Zenmap.
+
+These exercises cover two important stages of the cybersecurity assessment process: footprinting and network scanning. Together, they demonstrate how information gathering can progress from collecting publicly available details about a domain to identifying and mapping active hosts within a network.
+
+This project forms part of my continued hands-on learning and practical development throughout the Networkwalks internship programme.
