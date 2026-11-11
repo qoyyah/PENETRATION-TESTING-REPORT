@@ -32,3 +32,19 @@ This report documents two practical cybersecurity exercises completed during Wee
 These exercises cover two important stages of the cybersecurity assessment process: footprinting and network scanning. Together, they demonstrate how information gathering can progress from collecting publicly available details about a domain to identifying and mapping active hosts within a network.
 
 This project forms part of my continued hands-on learning and practical development throughout the Networkwalks internship programme.
+
+# 3. Tools Used
+
+The table below lists each tool used in this report and its purpose.
+
+| Tool | Purpose |
+|---|---|
+| Kali Linux & Windows | Operating systems utilized for conducting reconnaissance and information-gathering activities.             |
+| WHOIS                | Retrieves domain ownership and registration information..   |
+| whatweb              | Identifies web technologies, IP, servers, CMS platforms and plugins.         |
+| NSLookup             | Retrieves a domain's IP address through DNS queries.             |
+| curl -I              | Read the HTTP response headers of the website.                   |
+| WAFW00F              | Identifies whether a website is protected by a Web Application Firewall.     |
+| DNSRecon             | Discovers and analyses DNS records, including NS, MX, SPF, TXT, and SRV.               |
+| Zenmap (Nmap GUI)    | Scan the local subnet to find live hosts, IPs and MAC addresses. |
+| Windows CMD          | Local IP and MAC address identification                          |
