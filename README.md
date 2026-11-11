@@ -56,3 +56,16 @@ The table below lists each tool used in this report and its purpose.
 I conducted domain reconnaissance on **networkwalks.com** using six Kali Linux tools: **WHOIS**, **WhatWeb**, **Nslookup**, **Curl**, **Wafw00f**, and **DNSRecon**. Each tool helped gather specific information about the target domain from a different perspective.
 
 I began by using **WHOIS** to retrieve publicly accessible domain registration details, including the domain's name servers. This provided useful insights into its registration records and hosting infrastructure.
+
+I proceeded with **WhatWeb** to examine the website's technology stack. The scan revealed WordPress 7.1.4 and WP Download Manager 3.3.76, alongside other publicly accessible technical details.
+
+Next, I used **Nslookup** to perform a **DNS query** and retrieve the domain's corresponding IP address, which resolved to **192.232.216.135**.
+
+I used **Curl** with the **-I** **flag** to examine the website's HTTP response headers. This revealed additional technical details about the web application, including the publicly accessible WordPress REST API endpoint **/wp-json/**.
+
+I then ran **Wafw00f** to check for the presence of a Web Application Firewall **(WAF)**. The scan detected **ModSecurity (SpiderLabs)** as the security technology protecting the website.
+
+Finally, I performed **DNS enumeration** using **DNSRecon** to gather details about the domain's DNS infrastructure. The results revealed information about its name servers, mail servers, SPF/TXT records, 8 service records were found and DNS software.
+
+## 4.2 Network Scanning with Zenmap
+
