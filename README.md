@@ -48,3 +48,11 @@ The table below lists each tool used in this report and its purpose.
 | DNSRecon             | Discovers and analyses DNS records, including NS, MX, SPF, TXT, and SRV.               |
 | Zenmap (Nmap GUI)    | Scan the local subnet to find live hosts, IPs and MAC addresses. |
 | Windows CMD          | Local IP and MAC address identification                          |
+
+# 4. Practical Exercises Performed
+
+## 4.1 Footprinting & Reconnaissance
+
+I conducted domain reconnaissance on **networkwalks.com** using six Kali Linux tools: **WHOIS**, **WhatWeb**, **Nslookup**, **Curl**, **Wafw00f**, and **DNSRecon**. Each tool helped gather specific information about the target domain from a different perspective.
+
+I began by using **WHOIS** to retrieve publicly accessible domain registration details, including the domain's name servers. This provided useful insights into its registration records and hosting infrastructure.
