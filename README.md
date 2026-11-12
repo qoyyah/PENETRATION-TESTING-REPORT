@@ -69,3 +69,31 @@ Finally, I performed **DNS enumeration** using **DNSRecon** to gather details ab
 
 ## 4.2 Network Scanning with Zenmap
 
+For the second exercise, I used **Zenmap** to conduct network discovery on my local network. The objective was to determine my local IP address and subnet, identify active hosts, retrieve their corresponding IP and MAC addresses and generate a visual representation of the network topology.
+
+I began by running the Windows **ip addr** command to obtain my local IP address and **LAN subnet** information . 
+
+I subsequently ran **ip route** to confirm the network routing information and default gateway. After identifying the **subnet**, I entered it into **Zenmap** and selected the Ping Scan option to detect active devices connected to the network.
+
+The practical's example scan results revealed two active hosts with the following IP addresses:
+
+10.0.0.1
+
+10.0.0.2
+
+Additionally, the scan results displayed two corresponding MAC addresses, providing further information about the devices identified on the network.
+
+# 5. Risk Analysis / Impact
+
+Based on the information collected during the footprinting and network scanning activities, I identified the following potential risks.
+
+| **\#** | **Risk / Finding**                           | **Evidence / Observation**                                  | **Potential Impact**                                                                                            | **Risk Level** |
+|--------|----------------------------------------------|-------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|----------------|
+| 1      | Exposure of Web Technology Details           | WhatWeb detected WordPress and WP Download Manager.      | Could help attackers identify software components that may require further security assessment. | **● Medium**   |
+| 2      | Publicly Identifiable Server IP               | NSLookup resolved the domain to `192.232.216.135`           | Provides information about the network location of the web service                                              | **● Low**      |
+| 3      | HTTP technical information exposed           | Curl returned HTTP response headers and exposed `/wp-json/` | May assist technology fingerprinting and further enumeration                                                    | **● Low**      |
+| 4      | WAF technology identifiable                  | Wafw00f identified ModSecurity (SpiderLabs)                 | Reveals information about the web application’s security architecture                                           | **● Low**      |
+| 5      | DNS infrastructure information exposed       | DNSRecon identified DNS, mail and service-related records   | DNS information can help build a broader infrastructure profile                                                 | **● Medium**   |
+| 6      | Multiple live hosts visible on local network | Zenmap identified four live hosts in the example network    | Unknown or unauthorized devices may potentially be present on a network                                         | **● Medium**   |
+
+**Risk level key:** ● Critical ● Medium ● Low
