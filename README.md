@@ -171,9 +171,15 @@ Overall, Week 2 provided valuable hands-on experience and strengthened my founda
 
 <img width="715" height="616" alt="host scan output" src="https://github.com/user-attachments/assets/904e32d9-6830-451a-acab-6be302dd78da" />
 
+-End-
 
 👤 Author
 Rukayat Sodiq
 Cybersecurity Professional B084
-
 linkedin.com/in/alaorukayatifeoluwa
+
+----
+
+📌 **Project Information**
+**Program Name:** Cybersecurity program at Networkwalks | Week: 02 | Repository: GitHub
+
