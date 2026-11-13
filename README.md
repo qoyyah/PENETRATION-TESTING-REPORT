@@ -157,21 +157,30 @@ Overall, Week 2 provided valuable hands-on experience and strengthened my founda
 
 <img width="1135" height="849" alt="whois output" src="https://github.com/user-attachments/assets/a62daf4e-f857-497b-b515-adc6d344ee8b" />
 
+
 <img width="1120" height="454" alt="whatweb output" src="https://github.com/user-attachments/assets/52679bb8-8f6d-4a29-a49d-db3fe9871e11" />
+
 
 <img width="940" height="568" alt="nslookup output" src="https://github.com/user-attachments/assets/052d043e-782c-4aa1-98a7-9171d8ae5cfe" />
 
+
 <img width="1108" height="553" alt="curl -I output" src="https://github.com/user-attachments/assets/8e709121-4870-4704-bf68-86d183296c7f" />
+
 
 <img width="1122" height="712" alt="wafw00f output" src="https://github.com/user-attachments/assets/7657c101-96d8-4aae-b911-f635d703e78f" />
 
+
 <img width="1147" height="484" alt="dnsrecon output" src="https://github.com/user-attachments/assets/d463c46d-974a-4acd-ae15-63da7ee5d2cb" />
+
 
 <img width="1278" height="744" alt="Zenmap scan and topology" src="https://github.com/user-attachments/assets/3ed1363b-0264-4e05-b025-d0b19b0d8fdc" />
 
+
 <img width="715" height="616" alt="host scan output" src="https://github.com/user-attachments/assets/904e32d9-6830-451a-acab-6be302dd78da" />
 
+
 -End-
+
 
 👤 Author
 Rukayat Sodiq
